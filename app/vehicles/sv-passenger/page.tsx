@@ -4,6 +4,7 @@ import { Header } from "@/components/navigation/Header";
 import { Footer } from "@/components/footer/Footer";
 import { SVHero } from "@/components/product-sv/SVHero";
 import { SVSpecs } from "@/components/product-sv/SVSpecs";
+import { SVLargeSpace } from "@/components/product-sv/SVLargeSpace";
 import { SVInteractive } from "@/components/product-sv/SVInteractive";
 import { SVSafety } from "@/components/product-sv/SVSafety";
 import { SVComfortPerformance } from "@/components/product-sv/SVComfortPerformance";
@@ -28,6 +29,7 @@ export default function SVPassengerPage() {
       <main id="main">
         <SVHero />
         <SVSpecs />
+        <SVLargeSpace />
         <SVInteractive />
         <SVSafety />
         <SVComfortPerformance />
